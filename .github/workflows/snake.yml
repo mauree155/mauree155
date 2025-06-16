@@ -8,6 +8,9 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
       - name: Generate the snake animation
         uses: Platane/snk@v3
