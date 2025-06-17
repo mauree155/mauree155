@@ -16,12 +16,12 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate Snake
-        uses: Platane/snk@v3
+        uses: Platane/snk@platane/gif
         with:
           github_user_name: mauree155
           gif_out_path: dist/github-contribution-grid-snake.gif
-          background_color: '#0d1117'  # Dark background
-          color_snake: '#8b0000'       # Dark red snake
+          background_color: '#0d1117'
+          color_snake: '#8b0000'
           color_dots: '#444c56,#2f363d,#1c2128,#0d1117'
 
       - name: Commit and push
@@ -34,3 +34,4 @@ jobs:
           git add . --force
           git commit -m "Generate contribution snake" || echo "No changes to commit"
           git push origin output
+
