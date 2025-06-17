@@ -18,10 +18,12 @@ jobs:
       - name: Generate Snake
         uses: Platane/snk@v3
          with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+  github_user_name: mauree155
+  svg_out_path: dist/github-contribution-grid-snake.svg
+  background_color: '#0d1117'
+  color_snake: '#8b0000'
+  color_dots: '#444c56,#2f363d,#1c2128,#0d1117'
+
 
       - name: Commit and push
         run: |
