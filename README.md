@@ -53,10 +53,11 @@ I am a growing Data Analyst with a passion for transforming raw, messy data into
 
  > I’m actively learning and building. Open to collaborations, internships, or junior data analyst roles.
 
-<h2 align="center">My GitHub Contribution Activity
-</h2>
+<h2 align="center">My GitHub Contribution Activity</h2>
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/mauree155/mauree155/output/github-contribution-grid-snake.gif" />
 </div>
+
 
 
