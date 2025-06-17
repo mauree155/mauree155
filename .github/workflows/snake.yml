@@ -2,7 +2,7 @@ name: Generate Snake Animation 🐍
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day at midnight
+    - cron: "0 0 * * *"  # Runs every day at midnight
   workflow_dispatch:
 
 jobs:
@@ -19,9 +19,9 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: mauree155
-          svg_out_path: dist/github-contribution-grid-snake.svg
-          background_color: '#0d1117'
-          color_snake: '#8b0000'
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          background_color: '#0d1117'  # Dark background
+          color_snake: '#8b0000'       # Dark red snake
           color_dots: '#444c56,#2f363d,#1c2128,#0d1117'
 
       - name: Commit and push
