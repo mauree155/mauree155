@@ -56,7 +56,7 @@ I am a growing Data Analyst with a passion for transforming raw, messy data into
 <h2 align="center">My GitHub Contribution Activity</h2>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/mauree155/mauree155/output/github-contribution-grid-snake.gif" />
+  <img src="https://raw.githubusercontent.com/mauree155/mauree155/output/github-contribution-grid-snake.svg" />
 </div>
 
 
