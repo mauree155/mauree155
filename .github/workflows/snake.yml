@@ -2,7 +2,7 @@ name: Generate Snake Animation 🐍
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # every day at midnight
+    - cron: "0 0 * * *"  # Runs every day at midnight
   workflow_dispatch:
 
 jobs:
@@ -31,5 +31,5 @@ jobs:
           git add . --force
           git commit -m "Generate contribution snake" || echo "No changes to commit"
           git push origin output
-t
+
 
